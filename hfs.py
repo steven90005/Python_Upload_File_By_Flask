@@ -1,9 +1,6 @@
 from flask import Flask, request, send_file
 import os
 from PIL import Image
-import threading
-import tkinter as tk
-import tkinter.ttk as ttk
 import webbrowser
 
 app = Flask(__name__)
